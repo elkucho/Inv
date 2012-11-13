@@ -23,6 +23,8 @@
 		44634FEC1651F3B500998466 /* L4SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44634FEB1651F3B500998466 /* L4SecondViewController.m */; };
 		44634FEE1651F3B500998466 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 44634FED1651F3B500998466 /* second.png */; };
 		44634FF01651F3B500998466 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44634FEF1651F3B500998466 /* second@2x.png */; };
+		446350301651F4F300998466 /* L4DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463502D1651F4F300998466 /* L4DetailViewController.m */; };
+		446350311651F4F300998466 /* L4MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463502F1651F4F300998466 /* L4MasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,10 @@
 		44634FEB1651F3B500998466 /* L4SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = L4SecondViewController.m; sourceTree = "<group>"; };
 		44634FED1651F3B500998466 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		44634FEF1651F3B500998466 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4463502C1651F4F300998466 /* L4DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4DetailViewController.h; sourceTree = "<group>"; };
+		4463502D1651F4F300998466 /* L4DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4DetailViewController.m; sourceTree = "<group>"; };
+		4463502E1651F4F300998466 /* L4MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4MasterViewController.h; sourceTree = "<group>"; };
+		4463502F1651F4F300998466 /* L4MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4MasterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		44634FCE1651F3B500998466 /* Inv */ = {
 			isa = PBXGroup;
 			children = (
+				4463502B1651F4E500998466 /* Clients */,
 				44634FD71651F3B500998466 /* L4AppDelegate.h */,
 				44634FD81651F3B500998466 /* L4AppDelegate.m */,
 				44634FE01651F3B500998466 /* MainStoryboard.storyboard */,
@@ -122,6 +129,17 @@
 				44634FDE1651F3B500998466 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4463502B1651F4E500998466 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				4463502C1651F4F300998466 /* L4DetailViewController.h */,
+				4463502D1651F4F300998466 /* L4DetailViewController.m */,
+				4463502E1651F4F300998466 /* L4MasterViewController.h */,
+				4463502F1651F4F300998466 /* L4MasterViewController.m */,
+			);
+			name = Clients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +217,8 @@
 				44634FD91651F3B500998466 /* L4AppDelegate.m in Sources */,
 				44634FE51651F3B500998466 /* L4FirstViewController.m in Sources */,
 				44634FEC1651F3B500998466 /* L4SecondViewController.m in Sources */,
+				446350301651F4F300998466 /* L4DetailViewController.m in Sources */,
+				446350311651F4F300998466 /* L4MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
